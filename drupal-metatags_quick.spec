@@ -1,6 +1,6 @@
 %define modname		metatags_quick
 %define drupal_version	7
-%define module_version	2.4
+%define module_version	2.5
 %define version		%{drupal_version}.x.%{module_version}
 %define tarname		%{modname}-%{drupal_version}.x-%{module_version}
 
