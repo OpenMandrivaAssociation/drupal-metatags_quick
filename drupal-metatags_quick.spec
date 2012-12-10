@@ -32,3 +32,14 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 %files
 %{_var}/www/drupal/modules/%{modname}
 %doc README.txt
+
+
+%changelog
+* Thu Aug 09 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.2.5-1
++ Revision: 813305
+- update to 7.x.2.5
+
+* Sat May 12 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.2.4-1
++ Revision: 798458
+- imported package drupal-metatags_quick
+
